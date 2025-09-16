@@ -7,7 +7,7 @@ import { CliConfiguration } from "../types/cli/cli-configuration.js";
 /**
  * Current application version. Should be updated at each iteration.
  */
-const VERSION = "1.0.2";
+const VERSION = "1.0.3";
 
 program
   .name("lighthouse-plus")

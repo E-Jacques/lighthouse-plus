@@ -1,6 +1,6 @@
 import lighthouse, { type RunnerResult } from "lighthouse";
 import fs from "node:fs";
-import { Page } from "puppeteer";
+import type { Page } from "puppeteer-core";
 import { Action } from "./types/analysis-configuration/action.js";
 import { LifecyclePathway } from "./types/analysis-configuration/lifecycle-pathway.js";
 import type { LighthouseAnalysis } from "./types/core/lighthouse-analysis.js";

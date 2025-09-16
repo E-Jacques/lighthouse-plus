@@ -1,6 +1,9 @@
 import path from "node:path";
-import puppeteer, { type LaunchOptions } from "puppeteer";
-import { executeAnalysisPathway, executeLifecyclePathway } from "./lighthouse.js";
+import puppeteer, { type LaunchOptions } from "puppeteer-core";
+import {
+  executeAnalysisPathway,
+  executeLifecyclePathway,
+} from "./lighthouse.js";
 import { parseConfiguration } from "./parse-configuration.js";
 import { AnalysisConfiguration } from "./types/analysis-configuration/analysis-configuration.js";
 import { CliConfiguration } from "./types/cli/cli-configuration.js";
