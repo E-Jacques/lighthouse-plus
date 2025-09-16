@@ -1,0 +1,30 @@
+{
+  "name": "lighthouse-plus",
+  "version": "1.0.0",
+  "description": "Make performance and accessibility analysis simple to run, even in environments with access constraints like login pages.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/E-Jacques/lighthouse-plus.git"
+  },
+  "keywords": [
+    "lighthouse",
+    "accessibility",
+    "ci",
+    "web",
+    "cli"
+  ],
+  "author": "E-Jacques",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/E-Jacques/lighthouse-plus/issues"
+  },
+  "homepage": "https://github.com/E-Jacques/lighthouse-plus#readme",
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
