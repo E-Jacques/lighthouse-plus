@@ -4,3 +4,7 @@ npm-debug.log
 .env
 .DS_Store
 dist
+
+# Test
+lighthouse.yaml
+lighthouse
