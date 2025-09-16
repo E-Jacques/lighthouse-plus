@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { program } from "commander";
 import { runAnalysis } from "../core.js";
 import { CliConfiguration } from "../types/cli/cli-configuration.js";
@@ -5,7 +7,7 @@ import { CliConfiguration } from "../types/cli/cli-configuration.js";
 /**
  * Current application version. Should be updated at each iteration.
  */
-const VERSION = "1.0.1";
+const VERSION = "1.0.2";
 
 program
   .name("lighthouse-plus")
