@@ -1,8 +1,10 @@
 {
   "name": "lighthouse-plus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Make performance and accessibility analysis simple to run, even in environments with access constraints like login pages.",
-  "bin": "dist/bin/index.js",
+  "bin": {
+    "lighthouse-plus": "./dist/bin/index.js"
+  },
   "scripts": {
     "build": "tsc"
   },
